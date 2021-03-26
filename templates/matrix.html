@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th> &nbsp </th>
+        <th> &nbsp </th>
+        {% for item in s2 %}
+            <th>{{item}}</th>
+        {% endfor %}
+    </tr>
+    {% for item in original_matrix %}
+        <tr>
+        {% for ele in item %}
+            <td>{{ele}}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+</table>

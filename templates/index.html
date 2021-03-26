@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <link href = "/static/styles.css" rel = "stylesheet">
+    <form action = "/score" method = "post">
+        <br>
+        <input type = "text" id = "s1" name = "string1" placeholder = "string1"/>
+        <input type = "text" id = "s2" name = "string2" placeholder = "string2"/>
+        <input type = "submit" name = "submit">
+    </form>
+
+{% endblock %}
